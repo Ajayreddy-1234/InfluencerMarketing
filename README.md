@@ -42,11 +42,6 @@ To set up the project locally:
 
    ```bash
    cd InfluencerMarketing
-
-2. **Navigate to the project directory**:
-
-   ```bash
-   cd InfluencerMarketing
    
 3. **Install the necessary dependencies. Ensure you have Node.js and npm installed**:
 
