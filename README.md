@@ -1,62 +1,68 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a></p>
+# InfluencerMarketing
 
-<p align="center">
-<a href="https://travis-ci.org/laravel/framework"><img src="https://travis-ci.org/laravel/framework.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
+InfluencerMarketing is a web application designed to connect companies with influencers for marketing and event promotion. The platform facilitates seamless collaboration by allowing influencers to offer services at predetermined rates and enabling companies to book these services efficiently.
 
-## About Laravel
+## Features
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+- **Influencer Services**: Influencers can offer services such as Instagram Stories and WhatsApp Stories, setting their own rates through the platform.
+- **Admin Controls**: Administrators have the authority to approve or block influencers, ensuring quality and compliance.
+- **Link Tree Feature**: Influencers can showcase their social media profiles, allowing users to select influencers based on follower counts on specific platforms.
+- **User Interaction**: Regular users can add influencer services to their cart and proceed to payment seamlessly.
+- **Google Calendar Integration**: The application integrates with the Google Calendar API to schedule events or services for both influencers and regular users, ensuring timely coordination.
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+## How to Use
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+1. **For Influencers**:
+   - Sign up and create a profile.
+   - Add your services (e.g., Instagram Stories, WhatsApp Stories) and set competitive rates.
+   - Utilize the link tree feature to link your social media profiles, showcasing your follower counts.
+   - Manage bookings and keep track of scheduled events through the integrated Google Calendar.
 
-## Learning Laravel
+2. **For Companies/Users**:
+   - Sign up and browse through available influencers.
+   - Use the link tree feature to assess influencers based on their social media presence and follower counts.
+   - Add desired influencer services to your cart.
+   - Proceed to payment to confirm bookings.
+   - View and manage your scheduled events through the integrated Google Calendar.
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+3. **For Administrators**:
+   - Monitor new influencer sign-ups.
+   - Approve or block influencers based on predefined criteria to maintain platform integrity.
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains over 1500 video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+## Installation
 
-## Laravel Sponsors
+To set up the project locally:
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the Laravel [Patreon page](https://patreon.com/taylorotwell).
+1. **Clone the repository**:
 
-### Premium Partners
+   ```bash
+   git clone https://github.com/Ajayreddy-1234/InfluencerMarketing.git
 
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Cubet Techno Labs](https://cubettech.com)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[Many](https://www.many.co.uk)**
-- **[Webdock, Fast VPS Hosting](https://www.webdock.io/en)**
-- **[DevSquad](https://devsquad.com)**
-- **[Curotec](https://www.curotec.com/)**
-- **[OP.GG](https://op.gg)**
+2. **Navigate to the project directory**:
+
+   ```bash
+   cd InfluencerMarketing
+
+2. **Navigate to the project directory**:
+
+   ```bash
+   cd InfluencerMarketing
+   
+3. **Install the necessary dependencies. Ensure you have Node.js and npm installed**:
+
+   ```bash
+   npm install
+
+4. **Set up the environment variables as required (e.g., database credentials, API keys).**:
+
+5. **Start the development server**:
+
+   ```bash
+   npm start
+6. Access the application at http://localhost:3000.
 
 ## Contributing
-
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
-
-## Code of Conduct
-
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
-
-## Security Vulnerabilities
-
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
+We welcome contributions to enhance the platform. Please fork the repository, create a new branch for your feature or bug fix, and submit a pull request.
 
 ## License
-
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+This project is licensed under the MIT License. See the LICENSE file for details.
